@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table Cutter Knives</title>
+  <link rel="stylesheet" type="text/css" href="styles-contact.css"/>
+  <meta name="keywords" content="Table Cutters, Esko, Zund,">
+  <meta name="description" content="Table Cutter Knives for Large Format Printers">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <nav role="navigation">
+      <a class="laglink column2" href="https://www.lagrinding.com/" target="_blank"><img class="logo" src="https://www.lagrinding.com/wp-content/uploads/2016/03/lag-new-logo2.png" alt="LA & Arizona Grinding Logo" /></a>
+      <a class="navlinks active column4" href="index.html">Home</a>
+      <a class="navlinks column5" href="gallery.html">Photo Gallery</a>
+      <a class="navlinks column6" href="contact.html">Contact Us</a>
+  </nav>
+  <div class="container">
+    <main>
+      <h1 class="main-center">Contact Us</h1>
+      <form>
+        <p>Email Us!</p>
+        <input type="text" name="name" placeholder="Name"/>
+        <input type="text" name="email" placeholder="Email" />
+        <input type="text" name="company" placeholder="Company" />
+        <textarea name="message" placeholder="Message"></textarea>
+        <br>
+        <input type="submit" value="Send" />
+      </form>
+      <div class="text">
+        <h2>Come see us in person!</h2>
+        <p> Our customers are our highest priority so please feel free to visit us at our main shop in Burbank California. </p>
+        <h2>L.A. Grinding Co.</h2>
+        <p>305 North Victory Boulevard, Burbank, California 91502, United States</p>
+        <h2>or Call us!</h2>
+        <p><span href="tel:8188469134">818-846-9134</span></p>
+        <h2>Our Hours</h2>
+        <table>
+          <tr>
+            <td>Monday</td>
+            <td>8:00AM to 4:30PM</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>8:00AM to 4:30PM</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>8:00AM to 4:30PM</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>8:00AM to 4:30PM</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>8:00AM to 4:30PM</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>Closed</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Closed</td>
+          </tr>
+        </table>
+      </div>
+      
+      
+      <div id="map" class="row4 main-center"></div>
+    <script>
+function initMap() {
+  var uluru = {lat: -25.344, lng: 131.036};
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+    </script>
+      
+      
+      <div class="content-end row5"></div>
+    </main><!--page content-->
+   <footer>
+     <div class="centered">
+       <a class="foocol1 footerlinks" href="index.html">Home</a>
+       <a class="foocol2 footerlinks" href="gallery.html">Photo Gallery</a>
+       <a class="foocol3 footerlinks" href="contact.html">Contact Us</a>
+       <a class="foocol4 footerlinks" href="https://www.lagrinding.com/" target="_blank">www.lagrinding.com</a>
+       <p>Copyright &copy; 2020 L.A. Grinding Co. - All Rights Reserved.</p>
+     </div>
+   </footer>
+ </div><!--container-->
+</body>
+</html>
